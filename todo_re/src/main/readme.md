@@ -19,7 +19,7 @@
 
 ---
 
-### Application Flow 
+## Application Flow 
 
            ┌────────────────┐
            │ register.jsp   │
@@ -56,13 +56,14 @@
      addTask.jsp   edittask.jsp   DeleteTaskServlet
               │     │                │
               ▼     ▼                ▼
-  AddTaskServlet   EditTaskServlet
+    AddTaskServlet  EditTaskServlet
               │     │                │
               └─────┴─────┬──────────┘
                           ▼
                        tasks.jsp
 
               Logout → LogoutServlet → login.jsp
+
 
 ## Application Flow
 
